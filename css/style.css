@@ -1,0 +1,69 @@
+body 
+{ 
+	padding:2em; 
+	font : 100%/1.4 'Helvetica Neue', arial, helvetica, helve, sans-serif; 	
+	font-size: 15px;
+}
+
+.col 
+{ 
+	padding:1em 0; 
+	text-align:center;
+}
+.cabeza
+{
+	background-image: url(../img/grupal.jpg);
+	background-size: cover;
+ 	background-position: right;
+ 	background-repeat: no-repeat;
+ 	height: 700px;
+	
+}
+.cabeza button
+{
+	background-color: #F8A50A;
+	border: 1px solid #F8A50A;
+	height: 40px;
+	width: 80px;
+	margin-right: 40px;
+	margin-top: 10px;
+}
+.cabeza img
+{
+	width: 100%;
+	margin-top: 20px;
+	
+}
+.cabeza li
+{
+	list-style: none;
+	text-align: left;
+	display: inline;
+	margin-left: 10px;
+
+}
+.cabeza a
+{
+	text-decoration: none;
+	color: black;
+}
+.imagenes img
+{
+	width: 100%;
+
+}
+.contenedor2
+{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.pie
+{
+	background-color: #555451;
+}
+.pie p
+{
+	color:white;
+	font-size: 15px;
+	margin-left: 30px;
+}
