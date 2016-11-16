@@ -1,20 +1,24 @@
+*
+{
+	outline: 1px solid green;
+
+}
 body 
 { 
-	padding:2em; 
 	font : 100%/1.4 'Helvetica Neue', arial, helvetica, helve, sans-serif; 	
 	font-size: 15px;
+	margin:0px;
 }
 
 .col 
 { 
-	padding:1em 0; 
-	text-align:center;
+	 
+	text-align:left;
 }
 .cabeza
 {
 	background-image: url(../img/grupal.jpg);
 	background-size: cover;
- 	background-position: right;
  	background-repeat: no-repeat;
  	height: 700px;
 	
@@ -23,16 +27,20 @@ body
 {
 	background-color: #F8A50A;
 	border: 1px solid #F8A50A;
-	height: 40px;
+	height: 35px;
 	width: 80px;
-	margin-right: 40px;
-	margin-top: 10px;
+	margin: 50px 0 0 100px;
 }
 .cabeza img
 {
 	width: 100%;
-	margin-top: 20px;
+	margin-top: 80px;
 	
+}
+.cabeza ul
+{
+	margin-left: 0px;
+	margin-top: 50px;
 }
 .cabeza li
 {
@@ -47,18 +55,22 @@ body
 	text-decoration: none;
 	color: black;
 }
-.imagenes img
-{
-	width: 100%;
-
-}
 .contenedor2
 {
 	padding-left: 50px;
 	padding-right: 50px;
 }
+.imagenes img
+{
+	width: 100%;
+}
+.imagenes p
+{
+
+}
 .pie
 {
+	margin-top: -1px;
 	background-color: #555451;
 }
 .pie p
